@@ -1,3 +1,4 @@
+/* --- Geral --- */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,6 @@ body {
 
 p {
   text-align: left;
-  text-indent: 2rem;
 }
 
 .container {
@@ -75,21 +75,21 @@ main section {
   display: none;
   width: 100%;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-start; /* Alinhado à esquerda */
   padding: 2rem 0;
 }
 
 main section:target {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start; /* Alinhado à esquerda */
   justify-content: center;
 }
 
 main section:first-of-type {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Alinha a seção do perfil ao centro */
   justify-content: center;
 }
 
@@ -103,7 +103,7 @@ main section:target ~ main section:first-of-type {
   padding: 2rem;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem; /* Adiciona espaçamento entre os cards */
 }
 
 .card:hover {
@@ -114,7 +114,7 @@ main section:target ~ main section:first-of-type {
 .profile-card {
   text-align: center;
   padding: 2.5rem;
-  align-items: center; 
+  align-items: center; /* Alinha o conteúdo interno ao centro */
 }
 
 .profile-img {
@@ -229,12 +229,31 @@ a:hover {
   display: inline-block;
   background-color: #ed145b;
   color: #fff;
-  padding: 1px 10px;
+  padding: 6px 10px; 
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
   transition: background 0.3s, transform 0.2s;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.btn {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 18px;
+  margin: 5px 10px 0 0 ;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.btnfiap:hover {
+  background-color: #7e0b32;
+  text-decoration: none;
+  transform: translateY(-3px);
 }
 
 .btn:hover {
@@ -245,12 +264,11 @@ a:hover {
   font-weight: bold;
 }
 
-
+/* --- Rodapé --- */
 footer {
   background-color: #1e4762;
   color: #98a0a9;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   border-radius: 15px;
   padding: 2rem;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
