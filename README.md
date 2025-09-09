@@ -32,8 +32,11 @@ JavaScript: Um pequeno script para destacar o link ativo no menu de navegação,
 📁 Estrutura de Arquivos
 .
 ├── index.html
+
 ├── style.css
+
 └── images/
+
     └── foto.png
 
 index.html: O arquivo principal que contém toda a estrutura do currículo, incluindo o HTML e o script JavaScript para navegação.
