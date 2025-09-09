@@ -1,4 +1,5 @@
 Acesse a página em [https://r3vmarcos.github.io/Curriculo-Marcos-Nunes/](https://r3vmarcos.github.io/Curriculo-Marcos-Nunes/)
+
 Currículo Online - Marcos Nunes Silva
 Este é o repositório do currículo online de Marcos Nunes Silva. O projeto foi desenvolvido como um exercício de front-end, focado em boas práticas de design e usabilidade, com uma abordagem de "Single-Page Application" (SPA) usando navegação baseada apenas em CSS e um script para funcionalidade de destaque.
 
