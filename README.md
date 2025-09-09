@@ -31,6 +31,7 @@ JavaScript: Um pequeno script para destacar o link ativo no menu de navegação,
 
 📁 Estrutura de Arquivos
 .
+
 ├── index.html
 
 ├── style.css
@@ -48,13 +49,7 @@ images/: Pasta para armazenar a foto de perfil.
 ⚙️ Como Rodar o Projeto
 Clone o repositório:
 
-git clone [https://github.com/r3vmarcos/seu-repositorio.git](https://github.com/r3vmarcos/seu-repositorio.git)
 
-Navegue até o diretório do projeto:
-
-cd seu-repositorio
-
-Abra o arquivo index.html no seu navegador web. Não é necessário servidor local.
 
 Contato
 LinkedIn: Marcos Nunes Silva
